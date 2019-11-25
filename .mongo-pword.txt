@@ -1,0 +1,21 @@
+username: hamish
+pword: 3MSEkEO8EH4V3bo6
+
+mongo compass connection string: 
+mongodb+srv://hamish:3MSEkEO8EH4V3bo6@cluster0-rnwdb.mongodb.net/shop
+mongodb+srv://undefined:undefined@cluster0-rnwdb.mongodb.net/undefined
+
+Mongoose connection...
+mongoose
+  .connect(
+    'mongodb+srv://hamish:3MSEkEO8EH4V3bo6@cluster0-rnwdb.mongodb.net/test?retryWrites=true&w=majority'
+  )
+  .then(result => {
+    app.listen(3000);
+  })
+  .catch(err => {
+    console.log(err);
+  });
+
+  // Nodemailer API KEY
+  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
